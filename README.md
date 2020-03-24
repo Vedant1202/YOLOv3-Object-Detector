@@ -81,7 +81,7 @@ This application resides in the **application** directory in the root folder.
 
  1. Navigate to **application/server/controller/detector/** directory.
  2. Run convert_weights.py <br>
- `python convert_weights.py`
+ `python convert_weights.py` <br>
 *Note: Before running this, please make sure "weights" directory is present in the current directory and the weights have been downloaded from the google drive link mentioned above*
 
 **You are done with setup for the flask app. Remember this step has to be done only during the first time. Once done only the startup scripts need to be run which are explained as follows.**
@@ -90,7 +90,7 @@ This application resides in the **application** directory in the root folder.
 
  1. Navigate to **application/server/** directory.
  2. Run server.py <br>
- `python server.py`
+ `python server.py` <br>
  **Server has been started on [http://localhost:4000/](http://localhost:4000/).**
  **Open home.html file from application/client/views/ directory in your browser.**
 
