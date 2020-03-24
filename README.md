@@ -26,7 +26,7 @@ This is an implementation of YOLOv3 model for an Object Detector in images. This
 ### A [brief overview](https://medium.com/@ODSC/overview-of-the-yolo-object-detection-algorithm-7b52a745d3e0) on YOLO algorithm.
 
 
- ## 1. Python Implementation
+ ## Python Implementation
 
 ### File Structure
 
@@ -55,7 +55,7 @@ This is an implementation of YOLOv3 model for an Object Detector in images. This
 
 
 
- ## 2. Flask Application
+ ## Flask Application
 
 This is a server-client application with a **Flask** backend to serve the model on a web service.
 This application resides in the **application** directory in the root folder.
