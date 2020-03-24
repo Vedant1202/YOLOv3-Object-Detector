@@ -11,11 +11,11 @@ This is an implementation of YOLOv3 model for an Object Detector in images. This
 ### Quick Setup
 #### Note: Anaconda distribution is recommended to setup the scripts.
 
- 1. Clone the repository
+ 1. Clone the repository <br>
  `git clone https://github.com/Vedant1202/YOLOv3-Object-Detector.git`
- 2. Navigate into the repository
+ 2. Navigate into the repository <br>
  `cd YOLOv3-Object-Detector`
- 3.  Install dependencies using conda
+ 3.  Install dependencies using conda <br>
  `conda create --name yolov3 --file requirements.txt`
 
  ##### It is recommended that a GPU based version of Tensorflow (v2.1) should be used for better  performance. This repository uses a GPU based tensorflow for its implementation.
@@ -44,13 +44,13 @@ This is an implementation of YOLOv3 model for an Object Detector in images. This
 
  ### Steps to run the scripts:
 
- 1. Activate the environment (if not already activated)
+ 1. Activate the environment (if not already activated) <br>
  `conda activate yolov3`
  2. Create folder "**weights**"  (if not already present) in the root directory.
  3. Download the yolov3.weights file from this [link](https://drive.google.com/file/d/1aMrzvdsgqi3Md1O7X2R1DcbcClKbnQq_/view?usp=sharing).
- 4. Run convert_weights.py. This will parse the weights and store them in weights directory.
+ 4. Run convert_weights.py. This will parse the weights and store them in weights directory. <br>
  `python convert_weights.py`
-5. Finally run the image.py file.
+5. Finally run the image.py file. <br>
 `python image.py`
 
 
@@ -80,7 +80,7 @@ This application resides in the **application** directory in the root folder.
  ### Steps to setup the server (Only during the first time):
 
  1. Navigate to **application/server/controller/detector/** directory.
- 2. Run convert_weights.py
+ 2. Run convert_weights.py <br>
  `python convert_weights.py`
 *Note: Before running this, please make sure "weights" directory is present in the current directory and the weights have been downloaded from the google drive link mentioned above*
 
@@ -89,7 +89,7 @@ This application resides in the **application** directory in the root folder.
 ### Steps to start up the server:
 
  1. Navigate to **application/server/** directory.
- 2. Run server.py
+ 2. Run server.py <br>
  `python server.py`
  **Server has been started on [http://localhost:4000/](http://localhost:4000/).**
  **Open home.html file from application/client/views/ directory in your browser.**
