@@ -51,7 +51,11 @@ This is an implementation of YOLOv3 model for an Object Detector in images. This
  4. Run convert_weights.py. This will parse the weights and store them in weights directory. <br>
  `python convert_weights.py`
 5. Finally run the image.py file. <br>
-`python image.py`
+`python image.py` <br>
+A sample output is as follows. This output is based on an image containing a dog and a cat.
+The script filters only the box co-ordinates of the box containing a dog and outputs it as
+was described in the code challenge page.
+![enter image description here](https://raw.githubusercontent.com/Vedant1202/YOLOv3-Object-Detector/master/readme-images/output.PNG)
 
 
 
