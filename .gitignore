@@ -1,0 +1,4 @@
+weights/
+yolov3.weights
+application/server/detector/weights/
+application/server/detector/yolov3.weights

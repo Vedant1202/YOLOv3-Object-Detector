@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalabe=no"/>
+    <title>Image Detector</title>
+
+    <!-- CSS LIBRARIES -->
+    <link rel="stylesheet" href="../css/libs/bootstrap.min.css">
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="../css/home.css">
+
+    <!-- JS LIBRARIES -->
+    <script src="../js/libs/jquery.min.js" charset="utf-8"></script>
+    <script src="../js/libs/bootstrap.min.js" charset="utf-8"></script>
+    <script src="../js/libs/popper.min.js" charset="utf-8"></script>
+    <script src="../js/libs/bs-custom-file-input.min.js" charset="utf-8"></script>
+
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light pl-5 shadow rounded">
+      <a class="navbar-brand" href="#">Image Detector</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-toggle="modal" data-target="#modal">How it works</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container" style="margin-bottom: 15%;">
+
+      <div class="container pt-5" align="center">
+        <h2 class="display-4">Choose an image</h2>
+      </div>
+
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-9">
+            <div class="custom-file">
+              <input type="file" class="custom-file-input" id="input">
+              <label class="custom-file-label" for="input">Choose file</label>
+            </div>
+          </div>
+          <div class="col-3">
+            <button class="btn btn-info btn-block" id="submit" type="submit">Submit</button>
+          </div>
+        </div>
+
+        <div class="row mt-5 mb-5" align="center">
+          <div class="container">
+            <div class="row">
+              <div class="col-12" id="resultsDiv" align="center">
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-5" align="center">
+          <div class="col-12" align="center">
+            <h3 class="hidden p-4" id="inputImageTitle">Input Image</h3>
+            <img src="#" class="hidden shadow" id="inputImage" alt="input image" style="max-width: 800px !important;">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header" align="center">
+            <!-- <h2 class="modal-title" id="modalLabel" align="center">How it works</h2> -->
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row pt-4 pb-4" align="center" style="text-align: center;">
+              <div class="col-4">
+                <h3>Step 1</h3>
+                <!-- <hr> -->
+                <div class="container-fluid">
+                  <img src="../resources/pick.png" alt="" style="width: 100px;">
+                </div>
+                <div class="container-fluid">
+                  Pick an image
+                </div>
+              </div>
+              <div class="col-4">
+                <h3>Step 2</h3>
+                <!-- <hr> -->
+                <div class="container-fluid">
+                  <img src="../resources/server.png" alt="" style="width: 100px;">
+                </div>
+                <div class="container-fluid">
+                  Server processes
+                </div>
+              </div>
+              <div class="col-4">
+                <h3>Step 3</h3>
+                <!-- <hr> -->
+                <div class="container-fluid">
+                  <img src="../resources/down.png" alt="" style="width: 100px;">
+                </div>
+                <div class="container-fluid">
+                  Get the cropped images
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-light" data-dismiss="modal">Got it</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- CUSTOM JS -->
+    <script src="../js/home.js" charset="utf-8"></script>
+
+  </body>
+</html>
