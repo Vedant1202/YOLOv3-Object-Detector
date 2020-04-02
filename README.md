@@ -101,7 +101,7 @@ This application resides in the **application** directory in the root folder.
 ### How to use the application.
 *The application also has a 'how it works' section on the top navigation bar. You can explore that as well.* <br>
 
-#### A youtube video for an example use case is on this [link](https://youtu.be/fnke6UG_giM). 
+#### [A youtube video for an example use case is on this link](https://youtu.be/fnke6UG_giM). 
 
  1. After starting the server, open the home.html file in your browser.
 
