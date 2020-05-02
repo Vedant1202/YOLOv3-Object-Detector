@@ -26,7 +26,7 @@ This is an implementation of YOLOv3 model for an Object Detector in images. This
 ### A [brief overview](https://medium.com/@ODSC/overview-of-the-yolo-object-detection-algorithm-7b52a745d3e0) on YOLO algorithm.
 
 
- ## Python Implementation
+ ### Python Implementation
 
 ### File Structure
 
